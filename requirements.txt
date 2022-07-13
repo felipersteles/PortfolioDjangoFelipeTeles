@@ -1,5 +1,4 @@
 asgiref==3.5.2
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 certifi==2022.5.18.1
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
