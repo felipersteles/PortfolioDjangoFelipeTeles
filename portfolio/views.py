@@ -1,8 +1,6 @@
 
-import profile
-from unicodedata import category
 from django.shortcuts import render
-from .models import Home, About, Profile, Category, Skill, Portfolio
+from .models import Home, About, Profile, Category, Portfolio
 
 # Create your views here.
 
