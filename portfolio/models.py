@@ -3,6 +3,7 @@ from distutils.command.upload import upload
 from pydoc import describe
 from unicodedata import category
 from django.db import models
+from django.db.models.deletion import CASCADE
 # Create your models here.
 
 #  HOME SECTION 
