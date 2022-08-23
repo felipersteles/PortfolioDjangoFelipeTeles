@@ -7,7 +7,9 @@
 
         <!-- ===== CSS ===== -->
         <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
-
+        <!--===== MAIN JS =====-->
+        <script src="{% static 'assets/js/main.js' %}"></script>
+        
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
@@ -61,7 +63,7 @@
                     </div>
 
                     <div>
-                        <h2 class="about__subtitle"> {{ about.heading }} </h2>
+                        <h2 class="about_legenda"> {{ about.heading }} </h2>
                         <span class="about__profession"> {{ about.career }} </span>
                         <p class="about__text"> {{ about.description }} </p>
 
@@ -88,7 +90,8 @@
                     </div>
 
                     <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="">
+                        <img src="{% static 'assets/img/skill.jpg' %}" alt="">
+                        <div href="https://openai.com/" class="skill_link">Fishing a dinossour. Image made with DALL-E 2 by OpenIA</div>
                     </div>
                 </div>
             </section>
@@ -176,8 +179,5 @@
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
     </body>
 </html>

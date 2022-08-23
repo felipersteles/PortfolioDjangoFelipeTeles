@@ -27,7 +27,7 @@ def index(request):
         'about'         : about,
         'profiles'      : profiles,
         'categories'    : categories,
-        'portfoloios'   : portfolios,
+        'portfolios'   : portfolios,
     }
 
     return render(request, 'index.html', context)

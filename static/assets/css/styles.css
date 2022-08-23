@@ -229,7 +229,7 @@ img{
 .about__img img{
     width: 100px;
 }
-.about__subtitle{
+.about_legenda{
     font-size: var(--h2-font-size);
     color: var(--first-color);
     margin-bottom: var(--mb-1);
@@ -270,8 +270,13 @@ img{
     background-color: var(--first-color);
     color: var(--white-color);
 }
+
 .skills__img img{
     border-radius: .5rem;
+}
+
+.skill_link:hover{
+    color: red;
 }
 
 /* ===== PORTFOLIO =====*/
