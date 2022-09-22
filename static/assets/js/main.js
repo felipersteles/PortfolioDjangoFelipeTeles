@@ -77,6 +77,14 @@ sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
+//Just kidding
+
+const botao = document.getElementById('loucura')
+const imagem = document.getElementById('servindo')
+
+botao.onclick = function(){
+    imagem.classList.add('show')
+}
 
 
 
