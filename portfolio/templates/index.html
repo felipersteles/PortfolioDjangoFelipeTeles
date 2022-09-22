@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- ===== CSS ===== -->
+        
         <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
         
         <!-- ===== BOX ICONS ===== -->
@@ -57,9 +58,16 @@
                 <h2 class="section-title">About</h2>
 
                 <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="{{ about.profile_img.url }}" alt="">
+                    <div class="about_show">
+                        <div class="criativity_img">
+                            <img src="{% static 'assets\img\i-am-just-kidding\would-you-care-for-some.png' %}" alt="tudo errado" class="servindo">
+                        </div>
+    
+                        <div class="about__img">
+                            <img src="{{ about.profile_img.url }}" alt="">
+                        </div>
                     </div>
+                    
 
                     <div>
                         <h2 class="about_legenda"> {{ about.heading }} </h2>
@@ -70,6 +78,9 @@
                             <a href="https://www.linkedin.com/in/felipsteles/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
                             <a href="https://github.com/felipersteles" class="about__social-icon"><i class='bx bxl-github' ></i></a>
                         </div>
+                    </div>
+
+                    <div class="containerServindo">
                     </div>
                 </div>
             </section>
