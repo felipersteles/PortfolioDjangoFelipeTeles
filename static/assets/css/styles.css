@@ -479,13 +479,13 @@ img{
       
     }
     .criativity_img img{
-        max-width: 150%;
-        width: 500px;
+        max-width: 200%;
+        width: 700px;
         height:300px;
     }
     .about__img{
         position: relative;
-        left: 200px;
+        left: 100px;
         top: -150px;
         width: 200px;
         height: 200px;
