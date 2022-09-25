@@ -86,5 +86,7 @@ botao.onclick = function(){
     imagem.classList.add('show')
 }
 
+sr.reveal('.criativity_img', {delay: 500})
+
 
 
