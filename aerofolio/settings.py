@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 import os
 import django_heroku
+import chave
 
 from pathlib import Path
 
@@ -24,10 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-7c8iot@^o4617!q#da19gg9)+j)8x4wd$sq$$erdv485gck*u5'
+SECRET_KEY = chave.key
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['felipersteles.herokuapp.com', 'localhost', '127.0.0.1']
 
